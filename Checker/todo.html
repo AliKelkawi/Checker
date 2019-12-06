@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Todo List</title>
+
+    <link rel="stylesheet" type="text/css" href="css/todo.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+</head>
+
+<body>
+
+        <img id="logo" src="images/logo.png">
+
+    <div id="container">
+        <h1>To-Do List <i class="fa fa-plus"></i></h1>
+
+        <input type="text" placeholder="Add New Todo">
+
+        <ul id="taskList">
+            <!-- <li><span><i class="fa fa-trash"></i></span> Go to Potions Class</li>
+            <li><span><i class="fa fa-trash"></i></span> Buy New Robes</li>
+            <li><span><i class="fa fa-trash"></i></span> Visit Hagrid</li> -->
+        </ul>
+    </div>
+
+    <div id="doneContainer">
+        <h1 id="done">Done List  <button class="btn btn-danger" id="deleteAll" onclick="deleteAll()" style="display: inline;">Delete All</button></h1>
+        <ul id="doneList">
+            <!-- <li><span><i class="fa fa-trash"></i></span> Go to Potions Class</li>
+            <li><span><i class="fa fa-trash"></i></span> Buy New Robes</li>
+            <li><span><i class="fa fa-trash"></i></span> Visit Hagrid</li> -->
+        </ul>
+    </div>
+    
+
+    <script type="text/javascript" src="js/todo.js"></script>
+</body>
+
+</html>
